@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.coolweather.android">
 
+
+<!--    如果使用自制的application并且不指定全类名的话，是不能够找到自己指定的application的-->
     <application
+
+        android:name="com.coolweather.android.Myapplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
